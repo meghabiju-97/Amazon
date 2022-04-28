@@ -25,7 +25,7 @@ public void tc01() throws InterruptedException {
 	driver.manage().window().maximize();
 	WebElement searchbox=driver.findElement(By.id("twotabsearchtextbox"));
 	System.out.println("getAttribute() method:" + searchbox.getAttribute("name"));
-	searchbox.sendKeys("iphone");
+	searchbox.sendKeys("samsung");
 	driver.findElement(By.xpath("//input[@id=\"nav-search-submit-button\"]")).submit();
 	/*List<WebElement> productnames=driver.findElements(By.xpath("//div[@class='sg-col-inner']//span[@class='a-size-medium a-color-base a-text-normal']"));
 	System.out.println("getText() method:");
