@@ -22,7 +22,7 @@ public class LoginTestcase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		
-		System.out.println("Hello2")
+		
 		System.out.println("Hello")
 		
 		driver.findElement(By.cssSelector("input[placeholder='Search Amazon.in']")).sendKeys("iphone");
