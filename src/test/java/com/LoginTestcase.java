@@ -14,7 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class LoginTestcase {
 	
 	@Test
-	public void tc001() {
+	public void tc00001() {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
