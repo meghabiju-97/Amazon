@@ -25,7 +25,7 @@ public class LoginTestcase {
 		
 		System.out.println("Hello")
 		
-		driver.findElement(By.cssSelector("input[placeholder='Search Amazon.in']")).sendKeys("iphone");
+		driver.Element(By.cssSelector("input[placeholder='Search Amazon.in']")).sendKeys("iphone");
 		
 		driver.findElement(By.xpath("//input[@value='Go']")).click();
 		
